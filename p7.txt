@@ -1,0 +1,5 @@
+Opción 1:
+awk '{if(NR==9732) print $0}' rockyou.txt
+
+Opción 2:
+sed '9732!d' rockyou.txt
